@@ -1,0 +1,20 @@
+{
+    "ToDo": [
+        "InProgress"
+    ],
+    "InProgress": [
+        "Blocked",
+        "InQA"
+    ],
+    "Blocked": [
+        "ToDO"
+    ],
+    "InQA": [
+        "ToDO",
+        "Done"
+    ],
+    "Done": [
+        "Deployed"
+    ],
+    "Deployed": []
+}
